@@ -10,7 +10,6 @@ A curated list of papers concerning adversarial explainable AI (AdvXAI).
 
 **June, 2023**: We summarized the current state of the AdvXAI field in the following survey paper (work in progress)
 
-> H. Baniecki, P. Biecek.  **Adversarial Attacks and Defenses in Explainable Artificial Intelligence: A Survey**. *IJCAI Workshop on XAI*, 2023.
 
 
 ### Abstract
@@ -33,11 +32,11 @@ coming
 
 ## Related surveys
 
-* [Explainable AI Methods - A Brief Overview](https://doi.org/10.1007/978-3-031-04083-2_2)
+* [Advancements in Generative Modeling: A Comprehensive Survey of GANs and Diffusion Models for Text-to-Image Synthesis and Manipulation](https://ieeexplore.ieee.org/abstract/document/10481956)
   <details>
   <summary> A. Holzinger et al.  
       <em>xxAI - Beyond Explainable AI</em>, 2020 </summary>
-    Explainable Artificial Intelligence (xAI) is an established field with a vibrant community that has developed a variety of very successful approaches to explain and interpret predictions of complex machine learning models such as deep neural networks. In this article, we briefly introduce a few selected methods and discuss them in a short, clear and concise way. The goal of this article is to give beginners, especially application engineers and data scientists, a quick overview of the state of the art in this current topic. The following 17 methods are covered in this chapter: LIME, Anchors, GraphLIME, LRP, DTD, PDA, TCAV, XGNN, SHAP, ASV, Break-Down, Shapley Flow, Textual Explanations of Visual Models, Integrated Gradients, Causal Models, Meaningful Perturbations, and X-NeSyL.
+    This review paper explores the two main strategies in Gen AI: GANs and Diffusion models. GANs involve the generation and discrimination of data, with a focus on their architecture, optimization techniques, and challenges like mode disintegration and instability. Diffusion models, a blend of noise diffusion and denoising, aim to rewrite the generative narrative with their high-constancy photo generation, precise distribution coverage, and scalability benefits. The paper also highlights the interaction between GANs and Diffusion models, highlighting scenarios where each model is preferred and where collaboration unlocks synergistic capabilities. The review provides a roadmap for future research, identifying key areas for exploration and development in the ever-evolving landscape of generative modeling. The manuscript serves as a comprehensive manual for researchers/practitioners looking to navigate the complex world of GANs and Diffusion strategies.
   </details>
 * [Adversarial Machine Learning Attacks and Defense Methods in the Cyber Security Domain](https://doi.org/10.1145/3453158)
   <details>
