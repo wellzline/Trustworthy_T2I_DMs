@@ -34,8 +34,8 @@ coming
 
 * [Advancements in Generative Modeling: A Comprehensive Survey of GANs and Diffusion Models for Text-to-Image Synthesis and Manipulation](https://ieeexplore.ieee.org/abstract/document/10481956)
   <details>
-  <summary> A. Holzinger et al.  
-      <em>xxAI - Beyond Explainable AI</em>, 2020 </summary>
+  <summary> Priyanshu Deshmukh et al.  
+      <em>2024 IEEE International Students' Conference on Electrical, Electronics and Computer Science (SCEECS)</em>, 2024 </summary>
     This review paper explores the two main strategies in Gen AI: GANs and Diffusion models. GANs involve the generation and discrimination of data, with a focus on their architecture, optimization techniques, and challenges like mode disintegration and instability. Diffusion models, a blend of noise diffusion and denoising, aim to rewrite the generative narrative with their high-constancy photo generation, precise distribution coverage, and scalability benefits. The paper also highlights the interaction between GANs and Diffusion models, highlighting scenarios where each model is preferred and where collaboration unlocks synergistic capabilities. The review provides a roadmap for future research, identifying key areas for exploration and development in the ever-evolving landscape of generative modeling. The manuscript serves as a comprehensive manual for researchers/practitioners looking to navigate the complex world of GANs and Diffusion strategies.
   </details>
 * [Adversarial Machine Learning Attacks and Defense Methods in the Cyber Security Domain](https://doi.org/10.1145/3453158)
