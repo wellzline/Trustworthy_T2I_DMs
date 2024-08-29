@@ -14,7 +14,7 @@ A curated list of papers concerning Trustworthy Text-to-Image Diffusion Models.
 ## Overview
 
 <p align="center">
-    <img src="Taxonomy.png" width="600px"/>
+    <img src="Taxonomy.PNG" width="600px"/>
 </p>
 
 
