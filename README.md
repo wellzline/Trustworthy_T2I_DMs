@@ -380,6 +380,122 @@ coming
 
 
 
+## Benchmarks
+
+
+* [Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding](https://proceedings.neurips.cc/paper_files/paper/2022/hash/ec795aeadae0b7d230fa35cbaf04c041-Abstract-Conference.html)
+  <details>
+  <summary> Chitwan Saharia et al. 
+      <em> Advances in Neural Information Processing Systems 35 (NeurIPS 2022) </em>, 2022 </summary>
+  We present Imagen, a text-to-image diffusion model with an unprecedented degree of photorealism and a deep level of language understanding. Imagen builds on the power of large transformer language models in understanding text and hinges on the strength of diffusion models in high-fidelity image generation. Our key discovery is that generic large language models (e.g., T5), pretrained on text-only corpora, are surprisingly effective at encoding text for image synthesis: increasing the size of the language model in Imagen boosts both sample fidelity and image-text alignment much more than increasing the size of the image diffusion model. Imagen achieves a new state-of-the-art FID score of 7.27 on the COCO dataset, without ever training on COCO, and human raters find Imagen samples to be on par with the COCO data itself in image-text alignment. To assess text-to-image models in greater depth, we introduce DrawBench, a comprehensive and challenging benchmark for text-to-image models. With DrawBench, we compare Imagen with recent methods including VQ-GAN+CLIP, Latent Diffusion Models, and DALL-E 2, and find that human raters prefer Imagen over other models in side-by-side comparisons, both in terms of sample quality and image-text alignment.
+  </details>
+
+
+
+* [Scaling Autoregressive Models for Content-Rich Text-to-Image Generation](https://openreview.net/forum?id=d91XyueXag)
+  <details>
+  <summary> Jiahui Yu et al. 
+      <em> TMLR </em>, 2022 </summary>
+  We present the Pathways Autoregressive Text-to-Image (Parti) model, which generates high-fidelity photorealistic images and supports content-rich synthesis involving complex compositions and world knowledge. Parti treats text-to-image generation as a sequence-to-sequence modeling problem, akin to machine translation, with sequences of image tokens as the target outputs rather than text tokens in another language. This strategy can naturally tap into the rich body of prior work on large language models, which have seen continued advances in capabilities and performance through scaling data and model sizes. Our approach is simple: First, Parti uses a Transformer-based image tokenizer, ViT-VQGAN, to encode images as sequences of discrete tokens. Second, we achieve consistent quality improvements by scaling the encoder-decoder Transformer model up to 20B parameters, with a new state-of-the-art zero-shot FID score of 7.23 and finetuned FID score of 3.22 on MS-COCO. Our detailed analysis on Localized Narratives as well as PartiPrompts (P2), a new holistic benchmark of over 1600 English prompts, demonstrate the effectiveness of Parti across a wide variety of categories and difficulty aspects. We also explore and highlight limitations of our models in order to define and exemplify key areas of focus for further improvements.
+  </details>
+
+
+
+
+
+* [DALL-Eval: Probing the Reasoning Skills and Social Biases of Text-to-Image Generation Models](https://openaccess.thecvf.com/content/ICCV2023/html/Cho_DALL-Eval_Probing_the_Reasoning_Skills_and_Social_Biases_of_Text-to-Image_ICCV_2023_paper.html)
+  <details>
+  <summary> Jaemin Cho et al. 
+      <em> ICCV 2023</em>, 2023 </summary>
+  Recently, DALL-E, a multimodal transformer language model, and its variants including diffusion models have shown high-quality text-to-image generation capabilities. However, despite the realistic image generation results, there has not been a detailed analysis of how to evaluate such models. In this work, we investigate the visual reasoning capabilities and social biases of different text-to-image models, covering both multimodal transformer language models and diffusion models. First, we measure three visual reasoning skills: object recognition, object counting, and spatial relation understanding. For this, we propose PaintSkills, a compositional diagnostic evaluation dataset that measures these skills. Despite the high-fidelity image generation capability, a large gap exists between the performance of recent models and the upper bound accuracy in object counting and spatial relation understanding skills. Second, we assess the gender and skin tone biases by measuring the gender/skin tone distribution of generated images across various professions and attributes. We demonstrate that recent text-to-image generation models learn specific biases about gender and skin tone from web image-text pairs. We hope our work will help guide future progress in improving text-to-image generation models on visual reasoning skills and learning socially unbiased representations.
+  </details>
+
+
+
+
+
+
+* [Human Evaluation of Text-to-Image Models on a Multi-Task Benchmark](https://nips.cc/virtual/2022/57238)
+  <details>
+  <summary> Vitali Petsiuk et al. 
+      <em> NeurIPS , 2022</em>, 2022 </summary>
+  We provide a new multi-task benchmark for evaluating text-to-image models. We perform a human evaluation comparing the most common open-source (Stable Diffusion) and commercial (DALL-E 2) models. Twenty computer science AI graduate students evaluated the two models, on three tasks, at three difficulty levels, across ten prompts each, providing 3,600 ratings. Text-to-image generation has seen rapid progress to the point that many recent models have demonstrated their ability to create realistic high-resolution images for various prompts. However, current text-to-image methods and the broader body of research in vision-language understanding still struggle with intricate text prompts that contain many objects with multiple attributes and relationships. We introduce a new text-to-image benchmark that contains a suite of thirty-two tasks over multiple applications that capture a model's ability to handle different features of a text prompt. For example, asking a model to generate a varying number of the same object to measure its ability to count or providing a text prompt with several objects that each have a different attribute to identify its ability to match objects and attributes correctly. Rather than subjectively evaluating text-to-image results on a set of prompts, our new multi-task benchmark consists of challenge tasks at three difficulty levels (easy, medium, and hard) and human ratings for each generated image.
+  </details>
+
+
+
+* [TISE: Bag of Metrics for Text-to-Image Synthesis Evaluation](https://link.springer.com/chapter/10.1007/978-3-031-20059-5_34)
+  <details>
+  <summary> Tan M. Dinh et al. 
+      <em>  Computer Vision – ECCV 2022</em>, 2022 </summary>
+  In this paper, we conduct a study on the state-of-the-art methods for text-to-image synthesis and propose a framework to evaluate these methods. We consider syntheses where an image contains a single or multiple objects. Our study outlines several issues in the current evaluation pipeline: (i) for image quality assessment, a commonly used metric, e.g., Inception Score (IS), is often either miscalibrated for the single-object case or misused for the multi-object case; (ii) for text relevance and object accuracy assessment, there is an overfitting phenomenon in the existing R-precision (RP) and Semantic Object Accuracy (SOA) metrics, respectively; (iii) for multi-object case, many vital factors for evaluation, e.g., object fidelity, positional alignment, counting alignment, are largely dismissed; (iv) the ranking of the methods based on current metrics is highly inconsistent with real images. To overcome these issues, we propose a combined set of existing and new metrics to systematically evaluate the methods. For existing metrics, we offer an improved version of IS named IS* by using temperature scaling to calibrate the confidence of the classifier used by IS; we also propose a solution to mitigate the overfitting issues of RP and SOA. For new metrics, we develop counting alignment, positional alignment, object-centric IS, and object-centric FID metrics for evaluating the multi-object case. We show that benchmarking with our bag of metrics results in a highly consistent ranking among existing methods that is well-aligned with human evaluation. As a by-product, we create AttnGAN++, a simple but strong baseline for the benchmark by stabilizing the training of AttnGAN using spectral normalization. We also release our toolbox, so-called TISE, for advocating fair and consistent evaluation of text-to-image models.
+  </details>
+
+
+
+
+
+
+* [HRS-Bench: Holistic, Reliable and Scalable Benchmark for Text-to-Image Models](https://openaccess.thecvf.com/content/ICCV2023/html/Bakr_HRS-Bench_Holistic_Reliable_and_Scalable_Benchmark_for_Text-to-Image_Models_ICCV_2023_paper.html)
+  <details>
+  <summary> Eslam Mohamed Bakr et al. 
+      <em> Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 2023</em>, 2023 </summary>
+  Designing robust text-to-image (T2I) models have been extensively explored in recent years, especially with the emergence of diffusion models, which achieves state-of-the-art results on T2I synthesis tasks. Despite the significant effort and success in this direction, we observed that the existing metrics need to be more robust to measure real progress. Therefore, comparing the existing models are more complex and heavily subjective for human evaluations. In addition, we observe that the efforts in developing new architectures do not coincide with efforts in the evaluation direction. Driven by this observation, the importance of designing a concrete evaluation emerges to fill the gap between designing and evaluation efforts. Accordingly, we introduce our holistic, reliable, and scalable benchmark, termed \papernameAbbrev , for T2I models. Unlike the existing benchmarks, which focus on limited aspects, we measure 13 skills, which could be categorized into five critical skills; accuracy, robustness, generalization, fairness, and bias. In addition, \papernameAbbrev covers 50 applications, e.g., fashion, animals, transportation, food, and clothes. We evaluate nine recent large-scale T2I models using metrics that cover a wide range of skills. We study 13 skills, e.g., robustness, fairness, and bias. To probe the effectiveness of our \papernameAbbrev , a human evaluation is conducted, which is aligned with 95% with our evaluations on average across the 13 skills. We hope our findings, e.g., all the existing models can not generate visual text nor emotionally grounded images, help accelerate and direct future research. To this end, the code and data are available at https://eslambakr.github.io/hrsbench.github.io/.
+  </details>
+
+
+
+
+
+
+* [Toward Verifiable and Reproducible Human Evaluation for Text-to-Image Generation](https://openaccess.thecvf.com/content/CVPR2023/html/Otani_Toward_Verifiable_and_Reproducible_Human_Evaluation_for_Text-to-Image_Generation_CVPR_2023_paper.html)
+  <details>
+  <summary> Mayu Otani et al. 
+      <em> Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023</em>, 2023 </summary>
+  Human evaluation is critical for validating the performance of text-to-image generative models, as this highly cognitive process requires deep comprehension of text and images. However, our survey of 37 recent papers reveals that many works rely solely on automatic measures (e.g., FID) or perform poorly described human evaluations that are not reliable or repeatable. This paper proposes a standardized and well-defined human evaluation protocol to facilitate verifiable and reproducible human evaluation in future works. In our pilot data collection, we experimentally show that the current automatic measures are incompatible with human perception in evaluating the performance of the text-to-image generation results. Furthermore, we provide insights for designing human evaluation experiments reliably and conclusively. Finally, we make several resources publicly available to the community to facilitate easy and fast implementations.
+  </details>
+
+
+* [Benchmark for Compositional Text-to-Image Synthesis](https://openreview.net/forum?id=bKBhQhPeKaF&utm_campaign=The%20Batch&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--d4Gc6q514bW8fwBxNiIMuQo8hwMPODu9gBeKuJ1pNXfxdleVVivXQC1ffMrjG9lTZEabv)
+  <details>
+  <summary> Dong Huk Park et al. 
+      <em> NeurIPS 2021 Datasets and Benchmarks Track </em>, 2021 </summary>
+  Rapid progress in text-to-image generation has been often measured by Frechet Inception Distance (FID) to capture how realistic the generated images are, or by R-Precision to assess if they are well conditioned on the given textual descriptions. However, a systematic study on how well the text-to-image synthesis models generalize to novel word compositions is missing. In this work, we focus on assessing how true the generated images are to the input texts in this particularly challenging scenario of novel compositions. We present the first systematic study of text-to-image generation on zero-shot compositional splits targeting two scenarios, unseen object-color (e.g. "blue petal") and object-shape (e.g. "long beak") phrases. We create new benchmarks building on the existing CUB and Oxford Flowers datasets. We also propose a new metric, based on a powerful vision-and-language CLIP model, which we leverage to compute R-Precision. This is in contrast to the common approach where the same retrieval model is used during training and evaluation, potentially leading to biased behavior. We experiment with several recent text-to-image generation methods. Our automatic and human evaluation confirm that there is indeed a gap in performance when encountering previously unseen phrases. We show that the image correctness rather than purely perceptual quality is especially impacted. Finally, our CLIP-R-Precision metric demonstrates better correlation with human judgments than the commonly used metric.
+  </details>
+
+
+* [T2I-CompBench: A Comprehensive Benchmark for Open-world Compositional Text-to-image Generation](https://proceedings.neurips.cc/paper_files/paper/2023/hash/f8ad010cdd9143dbb0e9308c093aff24-Abstract-Datasets_and_Benchmarks.html)
+  <details>
+  <summary> Kaiyi Huang et al. 
+      <em> Advances in Neural Information Processing Systems 36 (NeurIPS 2023) </em>, 2023 </summary>
+  Despite the stunning ability to generate high-quality images by recent text-to-image models, current approaches often struggle to effectively compose objects with different attributes and relationships into a complex and coherent scene. We propose T2I-CompBench, a comprehensive benchmark for open-world compositional text-to-image generation, consisting of 6,000 compositional text prompts from 3 categories (attribute binding, object relationships, and complex compositions) and 6 sub-categories (color binding, shape binding, texture binding, spatial relationships, non-spatial relationships, and complex compositions). We further propose several evaluation metrics specifically designed to evaluate compositional text-to-image generation and explore the potential and limitations of multimodal LLMs for evaluation. We introduce a new approach, Generative mOdel finetuning with Reward-driven Sample selection (GORS), to boost the compositional text-to-image generation abilities of pretrained text-to-image models. Extensive experiments and evaluations are conducted to benchmark previous methods on T2I-CompBench, and to validate the effectiveness of our proposed evaluation metrics and GORS approach. Project page is available at https://karine-h.github.io/T2I-CompBench/.
+  </details>
+
+
+
+
+* [JourneyDB: A Benchmark for Generative Image Understanding](https://openreview.net/forum?id=vfzXDRTcF4)
+  <details>
+  <summary> Keqiang Sun et al. 
+      <em> NeurIPS 2023 Datasets and Benchmarks Poster</em>, 2023 </summary>
+  While recent advancements in vision-language models have had a transformative impact on multi-modal comprehension, the extent to which these models possess the ability to comprehend generated images remains uncertain. Synthetic images, in comparison to real data, encompass a higher level of diversity in terms of both content and style, thereby presenting significant challenges for the models to fully grasp. In light of this challenge, we introduce a comprehensive dataset, referred to as JourneyDB, that caters to the domain of generative images within the context of multi-modal visual understanding. Our meticulously curated dataset comprises 4 million distinct and high-quality generated images, each paired with the corresponding text prompts that were employed in their creation. Furthermore, we additionally introduce an external subset with results of another 22 text-to-image generative models, which makes JourneyDB a comprehensive benchmark for evaluating the comprehension of generated images. On our dataset, we have devised four benchmarks to assess the performance of generated image comprehension in relation to both content and style interpretation. These benchmarks encompass prompt inversion, style retrieval, image captioning, and visual question answering. Lastly, we evaluate the performance of state-of-the-art multi-modal models when applied to the JourneyDB dataset, providing a comprehensive analysis of their strengths and limitations in comprehending generated content. We anticipate that the proposed dataset and benchmarks will facilitate further research in the field of generative content understanding. The dataset is publicly available at https://journeydb.github.io.
+  </details>
+
+
+
+
+* [GenAI-Bench: A Holistic Benchmark for Compositional Text-to-Visual Generation](https://openreview.net/forum?id=hJm7qnW3ym)
+  <details>
+  <summary> Baiqi Li et al. 
+      <em> SynData4CV</em>, 2024 </summary>
+ Text-to-visual models can now generate photo-realistic images and videos that accurately depict objects and scenes. Still, they struggle with compositions of attributes, relationships, and higher-order reasoning such as counting, comparison, and logic. Towards this end, we introduce {\bf GenAI-Bench} to evaluate compositional text-to-visual generation through 1,600 high-quality prompts collected from professional designers, surpassing the difficulty and diversity of existing benchmarks like PartiPrompt and T2I-CompBench. Our human and automated evaluations on GenAI-Bench reveal that state-of-the-art models like DALL-E 3, StableDiffusion, and Gen2 often fail to parse user prompts requiring advanced compositional reasoning. Finally, we release over 24,000 human ratings on synthetic images and videos produced by ten leading generative models (with the numbers still growing) to support the development of automated text-to-visual evaluation metrics.
+  </details>
+
+
+
+
+
+
 
 
 
