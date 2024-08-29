@@ -19,7 +19,7 @@ A curated list of papers concerning Trustworthy Text-to-Image Diffusion Models.
 
 
 ### Abstract
-> Text-to-image (T2I) Diffusion Models (DMs) have made remarkable strides in creating high-fidelity images. The ability to generate high-quality images from simple natural language descriptions could potentially bring tremendous benefits to various real-world applications, such as intelligent vehicles, healthcare, and a series of domain-agnostic generation tasks. DMs are a class of probabilistic generative models that generate samples by applying a noise injection process followed by a reverse procedure \cite{ho2020denoising}. T2I DMs are specific implementations that guide image generation using descriptive text as a guidance signal. Models such as Stability AI’s Stable Diffusion (SD) and Google’s Imagen, trained on large-scale datasets of annotated text-image pairs, are capable of producing photo-realistic images. Commercial products like DALL-E 3 and Midjourney have showcased impressive capabilities in a wide range of T2I applications, advancing the field.
+> Text-to-image (T2I) Diffusion Models (DMs) have made remarkable strides in creating high-fidelity images. The ability to generate high-quality images from simple natural language descriptions could potentially bring tremendous benefits to various real-world applications, such as intelligent vehicles, healthcare, and a series of domain-agnostic generation tasks. DMs are a class of probabilistic generative models that generate samples by applying a noise injection process followed by a reverse procedure. T2I DMs are specific implementations that guide image generation using descriptive text as a guidance signal. Models such as Stability AI’s Stable Diffusion (SD) and Google’s Imagen, trained on large-scale datasets of annotated text-image pairs, are capable of producing photo-realistic images. Commercial products like DALL-E 3 and Midjourney have showcased impressive capabilities in a wide range of T2I applications, advancing the field.
 
 
 ### Citation
@@ -67,12 +67,35 @@ coming
 
 ## Background (2018)
 
-* [Towards better understanding of gradient-based attribution methods for Deep Neural Networks](https://openreview.net/forum?id=Sy21R9JAW)
+* [Denoising Diffusion Probabilistic Models](https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html)
   <details>
-  <summary> M. Ancona et al.
-      <em>International Conference on Learning Representations (ICLR)</em>, 2018 </summary>
+  <summary> Jonathan Ho et al.
+      <em> Advances in Neural Information Processing Systems 33 (NeurIPS 2020)</em>, 2020 </summary>
+    We present high quality image synthesis results using diffusion probabilistic models, a class of latent variable models inspired by considerations from nonequilibrium thermodynamics. Our best results are obtained by training on a weighted variational bound designed according to a novel connection between diffusion probabilistic models and denoising score matching with Langevin dynamics, and our models naturally admit a progressive lossy decompression scheme that can be interpreted as a generalization of autoregressive decoding. On the unconditional CIFAR10 dataset, we obtain an Inception score of 9.46 and a state-of-the-art FID score of 3.17. On 256x256 LSUN, we obtain sample quality similar to ProgressiveGAN.
+  </details>
+
+
+* [High-Resolution Image Synthesis With Latent Diffusion Models](https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html)
+  <details>
+  <summary> Robin Rombach et al.
+      <em>the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022</em>, 2022 </summary>
     Understanding the flow of information in Deep Neural Networks (DNNs) is a challenging problem that has gain increasing attention over the last few years. While several methods have been proposed to explain network predictions, there have been only a few attempts to compare them from a theoretical perspective. What is more, no exhaustive empirical comparison has been performed in the past. In this work we analyze four gradient-based attribution methods and formally prove conditions of equivalence and approximation between them. By reformulating two of these methods, we construct a unified framework which enables a direct comparison, as well as an easier implementation. Finally, we propose a novel evaluation metric, called Sensitivity-n and test the gradient-based attribution methods alongside with a simple perturbation-based attribution method on several datasets in the domains of image and text classification, using various network architectures.
   </details>
+
+
+* [Learning Transferable Visual Models From Natural Language Supervision](https://proceedings.mlr.press/v139/radford21a)
+  <details>
+  <summary> Alec Radford et al.
+      <em>Proceedings of the 38th International Conference on Machine Learning, PMLR</em>, 2021 </summary>
+    State-of-the-art computer vision systems are trained to predict a fixed set of predetermined object categories. This restricted form of supervision limits their generality and usability since additional labeled data is needed to specify any other visual concept. Learning directly from raw text about images is a promising alternative which leverages a much broader source of supervision. We demonstrate that the simple pre-training task of predicting which caption goes with which image is an efficient and scalable way to learn SOTA image representations from scratch on a dataset of 400 million (image, text) pairs collected from the internet. After pre-training, natural language is used to reference learned visual concepts (or describe new ones) enabling zero-shot transfer of the model to downstream tasks. We study the performance of this approach by benchmarking on over 30 different existing computer vision datasets, spanning tasks such as OCR, action recognition in videos, geo-localization, and many types of fine-grained object classification. The model transfers non-trivially to most tasks and is often competitive with a fully supervised baseline without the need for any dataset specific training. For instance, we match the accuracy of the original ResNet-50 on ImageNet zero-shot without needing to use any of the 1.28 million training examples it was trained on.
+  </details>
+
+
+
+
+
+
+
 
 ## Robustness
 
