@@ -44,10 +44,11 @@ coming
       <em> 2024 14th International Conference on Cloud Computing, Data Science & Engineering (Confluence)</em>, 2024 </summary>
     From dreamscapes to photorealistic portraits, text-to-image generation pushes the boundaries of AI creativity. This survey navigates diverse techniques, such as GANs, VAEs, and Diffusion models, uncovering their potential for transforming textual descriptions into captivating visuals. These models have significantly advanced the field, but they are not without their limitations. One notable issue is data bias, which could potentially lead to a deficiency in variety and cultural awareness in the produced visuals. Furthermore, recognising the significance of mitigating data bias in generative models, this report offers insights and strategies to address this pressing issue. It explores approaches that leverage inclusive datasets, fairness-aware training techniques, and ethical considerations. These methods aim to bridge the gap between the technological advancements in image generation and the imperative need for inclusivity and cultural sensitivity.
   </details>
+  
 * [Controllable Generation with Text-to-Image Diffusion Models: A Survey](https://arxiv.org/pdf/2403.04279)
   <details>
-  <summary> Pu Cao et al. 
-      <em>IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE</em>, 2024 </summary>
+  <summary> Pu Cao et al.  
+      <em> IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE</em>, 2024 </summary>
     In the rapidly advancing realm of visual generation, diffusion models have revolutionized the landscape, marking a significant
 shift in capabilities with their impressive text-guided generative functions. However, relying solely on text for conditioning these models
 does not fully cater to the varied and complex requirements of different applications and scenarios. Acknowledging this shortfall, a variety
@@ -60,6 +61,7 @@ research in this area, organizing it into distinct categories from the condition
 with multiple conditions, and universal controllable generation. For an exhaustive list of the controllable generation literature surveyed,
 please refer to our curated repository at https://github.com/PRIV-Creation/Awesome-Controllable-T2I-Diffusion-Models.
   </details>
+  
 * [A Comprehensive Survey of Text Encoders for Text-to-Image Diffusion Models](https://publications.eai.eu/index.php/airo/article/view/5566)
   <details>
   <summary> Shun Fang et al.  
