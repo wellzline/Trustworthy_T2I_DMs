@@ -1,14 +1,13 @@
 # Trustworthy Text-to-Image Diffusion Models: A Timely and Focused Survey
 
-A curated list of papers concerning adversarial explainable AI (AdvXAI).
+A curated list of papers concerning Trustworthy Text-to-Image Diffusion Models.
 
-### Survey
 
-**February, 2024**: The survey is now published in <em>Information Fusion</em> at https://doi.org/10.1016/j.inffus.2024.102303
-
-**September, 2023**: An extended version of the paper is now available [on arXiv](https://arxiv.org/abs/2306.06123)
-
-**June, 2023**: We summarized the current state of the AdvXAI field in the following survey paper (work in progress)
+> [Yi Zhang](https://scholar.google.com/citations?user=9E8XJ54AAAAJ&hl=en), [Xingyu Zhao*](https://scholar.google.com/citations?user=SzEBdA8AAAAJ&hl=en), [Zhen Chen](https://scholar.google.com/citations?hl=en&user=Ezm8UAQAAAAJ), [Chih-Hong Cheng](https://scholar.google.com/citations?hl=en&user=e3RTgfMAAAAJ), [Wenjie Ruan](https://scholar.google.com/citations?user=VTASFGEAAAAJ&hl=en),
+[Xiaowei Huang](https://scholar.google.com/citations?user=X4fLCCIAAAAJ&hl=en), [Dezong Zhao](https://scholar.google.com/citations?hl=en&user=ydq4ZjYAAAAJ), [David Flynn](https://scholar.google.com/citations?hl=en&user=EeSDHVkAAAAJ),
+[Siddartha Khastgir](https://scholar.google.com/citations?hl=en&user=r3ldU6sAAAAJ),
+>
+> *Corresponding Author
 
 
 
