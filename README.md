@@ -49,17 +49,7 @@ coming
   <details>
   <summary> Pu Cao et al.  
       <em> IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE</em>, 2024 </summary>
-    In the rapidly advancing realm of visual generation, diffusion models have revolutionized the landscape, marking a significant
-shift in capabilities with their impressive text-guided generative functions. However, relying solely on text for conditioning these models
-does not fully cater to the varied and complex requirements of different applications and scenarios. Acknowledging this shortfall, a variety
-of studies aim to control pre-trained text-to-image (T2I) models to support novel conditions. In this survey, we undertake a thorough
-review of the literature on controllable generation with T2I diffusion models, covering both the theoretical foundations and practical
-advancements in this domain. Our review begins with a brief introduction to the basics of denoising diffusion probabilistic models
-(DDPMs) and widely used T2I diffusion models. We then reveal the controlling mechanisms of diffusion models, theoretically analyzing
-how novel conditions are introduced into the denoising process for conditional generation. Additionally, we offer a detailed overview of
-research in this area, organizing it into distinct categories from the condition perspective: generation with specific conditions, generation
-with multiple conditions, and universal controllable generation. For an exhaustive list of the controllable generation literature surveyed,
-please refer to our curated repository at https://github.com/PRIV-Creation/Awesome-Controllable-T2I-Diffusion-Models.
+    In the rapidly advancing realm of visual generation, diffusion models have revolutionized the landscape, marking a significant shift in capabilities with their impressive text-guided generative functions. However, relying solely on text for conditioning these models does not fully cater to the varied and complex requirements of different applications and scenarios. Acknowledging this shortfall, a variety of studies aim to control pre-trained text-to-image (T2I) models to support novel conditions. In this survey, we undertake a thorough review of the literature on controllable generation with T2I diffusion models, covering both the theoretical foundations and practical advancements in this domain. Our review begins with a brief introduction to the basics of denoising diffusion probabilistic models (DDPMs) and widely used T2I diffusion models. We then reveal the controlling mechanisms of diffusion models, theoretically analyzing how novel conditions are introduced into the denoising process for conditional generation. Additionally, we offer a detailed overview of research in this area, organizing it into distinct categories from the condition perspective: generation with specific conditions, generation with multiple conditions, and universal controllable generation. For an exhaustive list of the controllable generation literature surveyed, please refer to our curated repository at https://github.com/PRIV-Creation/Awesome-Controllable-T2I-Diffusion-Models.
   </details>
   
 * [A Comprehensive Survey of Text Encoders for Text-to-Image Diffusion Models](https://publications.eai.eu/index.php/airo/article/view/5566)
