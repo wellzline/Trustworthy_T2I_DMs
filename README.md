@@ -65,7 +65,7 @@ coming
   </details>
 
 
-## Background (2018)
+## Background
 
 * [Denoising Diffusion Probabilistic Models](https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html)
   <details>
