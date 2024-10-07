@@ -1,7 +1,8 @@
 # Trustworthy Text-to-Image Diffusion Models: A Timely and Focused Survey
 [![Paper](https://img.shields.io/badge/arxiv-2409.18214-red)](https://arxiv.org/abs/2409.18214)
 
-A curated list of papers concerning Trustworthy Text-to-Image Diffusion Models.
+A curated list of papers concerning Trustworthy Text-to-Image Diffusion Models. 
+We welcome relevant work and invite you to recommend your papers to us!
 
 > [Yi Zhang](https://scholar.google.com/citations?user=9E8XJ54AAAAJ&hl=en), [Xingyu Zhao*](https://scholar.google.com/citations?user=SzEBdA8AAAAJ&hl=en), [Zhen Chen](https://scholar.google.com/citations?hl=en&user=Ezm8UAQAAAAJ), [Chih-Hong Cheng](https://scholar.google.com/citations?hl=en&user=e3RTgfMAAAAJ), [Wenjie Ruan](https://scholar.google.com/citations?user=VTASFGEAAAAJ&hl=en),
 [Xiaowei Huang](https://scholar.google.com/citations?user=X4fLCCIAAAAJ&hl=en), [Dezong Zhao](https://scholar.google.com/citations?hl=en&user=ydq4ZjYAAAAJ), [David Flynn](https://scholar.google.com/citations?hl=en&user=EeSDHVkAAAAJ),
@@ -25,7 +26,12 @@ A curated list of papers concerning Trustworthy Text-to-Image Diffusion Models.
 ### Citation
 
 ```
-coming
+@article{zhang2024trustworthy,
+  title={Trustworthy Text-to-Image Diffusion Models: A Timely and Focused Survey},
+  author={Zhang, Yi and Chen, Zhen and Cheng, Chih-Hong and Ruan, Wenjie and Huang, Xiaowei and Zhao, Dezong and Flynn, David and Khastgir, Siddartha and Zhao, Xingyu},
+  journal={arXiv preprint arXiv:2409.18214},
+  year={2024}
+}
 ```
 
 
