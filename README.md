@@ -1,5 +1,6 @@
 # Trustworthy Text-to-Image Diffusion Models: A Timely and Focused Survey
-[![Paper](https://img.shields.io/badge/arxiv-2402.15429-red)](https://arxiv.org/abs/2409.18214)
+[![Paper](https://img.shields.io/badge/arxiv-2409.18214-red)](https://arxiv.org/abs/2409.18214)
+
 A curated list of papers concerning Trustworthy Text-to-Image Diffusion Models.
 
 > [Yi Zhang](https://scholar.google.com/citations?user=9E8XJ54AAAAJ&hl=en), [Xingyu Zhao*](https://scholar.google.com/citations?user=SzEBdA8AAAAJ&hl=en), [Zhen Chen](https://scholar.google.com/citations?hl=en&user=Ezm8UAQAAAAJ), [Chih-Hong Cheng](https://scholar.google.com/citations?hl=en&user=e3RTgfMAAAAJ), [Wenjie Ruan](https://scholar.google.com/citations?user=VTASFGEAAAAJ&hl=en),
