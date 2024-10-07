@@ -263,6 +263,15 @@ We welcome relevant work and invite you to recommend your papers to us!
   </details>
 
 
+* [Defending Text-to-image Diffusion Models: Surprising Efficacy of Textual Perturbations Against Backdoor Attacks](https://openreview.net/forum?id=8g2PejwZi6)
+  <details>
+  <summary> Oscar Chew et al. 
+      <em> ECCV 2024</em>, 2024 </summary>
+  Text-to-image diffusion models have been widely adopted in real-world applications due to their ability to generate realistic images from textual descriptions. However, studies have shown that these methods are vulnerable to backdoor attacks. Despite the significant threat posed by backdoor attacks on text-to-image diffusion models, countermeasures remain under-explored. In this paper, we address this research gap by demonstrating that state-of-the-art backdoor attacks against text-to-image diffusion models can be effectively mitigated by a surprisingly simple defense strategy—textual perturbation. Experiments show that textual perturbations are effective in defending against state-of-the-art backdoor attacks with minimal sacrifice to generation quality. We analyze the efficacy of textual perturbation from two angles: text embedding space and cross-attention maps. They further explain how backdoor attacks have compromised text-to-image diffusion models, providing insights for studying future attack and defense strategies.
+  </details>
+
+
+
 
 ## Privacy
 
