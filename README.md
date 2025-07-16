@@ -264,7 +264,7 @@ We welcome relevant work and invite you to recommend your papers to us!
   </details>
 
 
-  * [Fair Text-to-Image Diffusion via Fair Mapping](https://arxiv.org/abs/2311.17695)
+* [Fair Text-to-Image Diffusion via Fair Mapping](https://arxiv.org/abs/2311.17695)
   <details>
   <summary> Jia Li et al. 
       <em>Proceedings of the AAAI Conference on Artificial Intelligence 2025 </em>, 2025 </summary>
@@ -273,7 +273,7 @@ We welcome relevant work and invite you to recommend your papers to us!
 
 
 
-  * [Implicit Bias Injection Attacks against Text-to-Image Diffusion Models](https://arxiv.org/abs/2504.01819)
+* [Implicit Bias Injection Attacks against Text-to-Image Diffusion Models](https://arxiv.org/abs/2504.01819)
   <details>
   <summary> Huayang Huang et al. 
       <em>CVPR 2025 </em>, 2025 </summary>
