@@ -340,6 +340,24 @@ We welcome relevant work and invite you to recommend your papers to us!
   Text-to-image diffusion models have been widely adopted in real-world applications due to their ability to generate realistic images from textual descriptions. However, studies have shown that these methods are vulnerable to backdoor attacks. Despite the significant threat posed by backdoor attacks on text-to-image diffusion models, countermeasures remain under-explored. In this paper, we address this research gap by demonstrating that state-of-the-art backdoor attacks against text-to-image diffusion models can be effectively mitigated by a surprisingly simple defense strategy—textual perturbation. Experiments show that textual perturbations are effective in defending against state-of-the-art backdoor attacks with minimal sacrifice to generation quality. We analyze the efficacy of textual perturbation from two angles: text embedding space and cross-attention maps. They further explain how backdoor attacks have compromised text-to-image diffusion models, providing insights for studying future attack and defense strategies.
   </details>
 
+* [Backdooring Bias (B^2) into Stable Diffusion Models](https://arxiv.org/abs/2406.15213)
+  <details>
+  <summary> Ali Naseh et al. 
+      <em> USENIX Security '25</em>, 2025 </summary>
+  Recent advances in large text-conditional diffusion models have revolutionized image generation by enabling users to create realistic, high-quality images from textual prompts, significantly enhancing artistic creation and visual communication. However, these advancements also introduce an underexplored attack opportunity: the possibility of inducing biases by an adversary into the generated images for malicious intentions, e.g., to influence public opinion and spread propaganda. In this paper, we study an attack vector that allows an adversary to inject arbitrary bias into a target model. The attack leverages low-cost backdooring techniques using a targeted set of natural textual triggers embedded within a small number of malicious data samples produced with public generative models. An adversary could pick common sequences of words that can then be inadvertently activated by benign users during inference. We investigate the feasibility and challenges of such attacks, demonstrating how modern generative models have made this adversarial process both easier and more adaptable. On the other hand, we explore various aspects of the detectability of such attacks and demonstrate that the model's utility remains intact in the absence of the triggers. Our extensive experiments using over 200,000 generated images and against hundreds of fine-tuned models demonstrate the feasibility of the presented backdoor attack. We illustrate how these biases maintain strong text-image alignment, highlighting the challenges in detecting biased images without knowing that bias in advance. Our cost analysis confirms the low financial barrier ($10-$15) to executing such attacks, underscoring the need for robust defensive strategies against such vulnerabilities in diffusion models.
+  </details>
+
+
+
+* [UFID: A Unified Framework for Input-level Backdoor Detection on Diffusion Models](https://arxiv.org/abs/2404.01101)
+  <details>
+  <summary> Zihan Guan et al. 
+      <em> Proceedings of the AAAI Conference on Artificial Intelligence</em>, 2025 </summary>
+  Diffusion models are vulnerable to backdoor attacks, where malicious attackers inject backdoors by poisoning certain training samples during the training stage. This poses a significant threat to real-world applications in the Model-as-a-Service (MaaS) scenario, where users query diffusion models through APIs or directly download them from the internet. To mitigate the threat of backdoor attacks under MaaS, black-box input-level backdoor detection has drawn recent interest, where defenders aim to build a firewall that filters out backdoor samples in the inference stage, with access only to input queries and the generated results from diffusion models. Despite some preliminary explorations on the traditional classification tasks, these methods cannot be directly applied to the generative tasks due to two major challenges: (1) more diverse failures and (2) a multi-modality attack surface. In this paper, we propose a black-box input-level backdoor detection framework on diffusion models, called UFID. Our defense is motivated by an insightful causal analysis: Backdoor attacks serve as the confounder, introducing a spurious path from input to target images, which remains consistent even when we perturb the input samples with Gaussian noise. We further validate the intuition with theoretical analysis. Extensive experiments across different datasets on both conditional and unconditional diffusion models show that our method achieves superb performance on detection effectiveness and run-time efficiency.
+  </details>
+
+
+
 
 
 
