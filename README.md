@@ -15,7 +15,7 @@ We welcome relevant work and invite you to recommend your papers to us!
 ## Overview
 
 <p align="center">
-    <img src="Taxonomy.PNG" width="600px"/>
+    <img src="Taxonomy.png" width="600px"/>
 </p>
 
 
