@@ -432,6 +432,46 @@ We welcome relevant work and invite you to recommend your papers to us!
   </details>
 
 
+* [Membership Inference on Text-to-Image Diffusion Models via Conditional Likelihood Discrepancy](https://arxiv.org/abs/2405.14800)
+  <details>
+  <summary> Shengfang Zhai et al. 
+      <em>  NeurIPS 2024</em>, 2024 </summary>
+  Text-to-image diffusion models have achieved tremendous success in the field of controllable image generation, while also coming along with issues of privacy leakage and data copyrights. Membership inference arises in these contexts as a potential auditing method for detecting unauthorized data usage. While some efforts have been made on diffusion models, they are not applicable to text-to-image diffusion models due to the high computation overhead and enhanced generalization capabilities. In this paper, we first identify a conditional overfitting phenomenon in text-to-image diffusion models, indicating that these models tend to overfit the conditional distribution of images given the corresponding text rather than the marginal distribution of images only. Based on this observation, we derive an analytical indicator, namely Conditional Likelihood Discrepancy (CLiD), to perform membership inference, which reduces the stochasticity in estimating memorization of individual samples. Experimental results demonstrate that our method significantly outperforms previous methods across various data distributions and dataset scales. Additionally, our method shows superior resistance to overfitting mitigation strategies, such as early stopping and data augmentation.
+  </details>
+
+
+
+* [Unveiling Structural Memorization: Structural Membership Inference Attack for Text-to-Image Diffusion Models](https://arxiv.org/abs/2407.13252)
+  <details>
+  <summary> Qiao Li et al. 
+      <em>  MM2024 </em>, 2024 </summary>
+  With the rapid advancements of large-scale text-to-image diffusion models, various practical applications have emerged, bringing significant convenience to society. However, model developers may misuse the unauthorized data to train diffusion models. These data are at risk of being memorized by the models, thus potentially violating citizens' privacy rights. Therefore, in order to judge whether a specific image is utilized as a member of a model's training set, Membership Inference Attack (MIA) is proposed to serve as a tool for privacy protection. Current MIA methods predominantly utilize pixel-wise comparisons as distinguishing clues, considering the pixel-level memorization characteristic of diffusion models. However, it is practically impossible for text-to-image models to memorize all the pixel-level information in massive training sets. Therefore, we move to the more advanced structure-level memorization. Observations on the diffusion process show that the structures of members are better preserved compared to those of nonmembers, indicating that diffusion models possess the capability to remember the structures of member images from training sets. Drawing on these insights, we propose a simple yet effective MIA method tailored for text-to-image diffusion models. Extensive experimental results validate the efficacy of our approach. Compared to current pixel-level baselines, our approach not only achieves state-of-the-art performance but also demonstrates remarkable robustness against various distortions.
+  </details>
+
+
+* [Understanding Memorization in Generative Models via Sharpness in Probability Landscapes](https://arxiv.org/abs/2412.04140)
+  <details>
+  <summary> Dongjae Jeon et al. 
+      <em>  ICML 2025 (Spotlight)</em>, 2025 </summary>
+  In this paper, we introduce a geometric framework to analyze memorization in diffusion models through the sharpness of the log probability density. We mathematically justify a previously proposed score-difference-based memorization metric by demonstrating its effectiveness in quantifying sharpness. Additionally, we propose a novel memorization metric that captures sharpness at the initial stage of image generation in latent diffusion models, offering early insights into potential memorization. Leveraging this metric, we develop a mitigation strategy that optimizes the initial noise of the generation process using a sharpness-aware regularization term.
+  </details>
+
+
+* [Exploring Local Memorization in Diffusion Models via Bright Ending Attention](https://arxiv.org/abs/2410.21665)
+  <details>
+  <summary> Chen Chen et al. 
+      <em>  ICLR 2025 (Spotlight) </em>, 2025 </summary>
+  Text-to-image diffusion models have achieved unprecedented proficiency in generating realistic images. However, their inherent tendency to memorize and replicate training data during inference raises significant concerns, including potential copyright infringement. In response, various methods have been proposed to evaluate, detect, and mitigate memorization. Our analysis reveals that existing approaches significantly underperform in handling local memorization, where only specific image regions are memorized, compared to global memorization, where the entire image is replicated. Also, they cannot locate the local memorization regions, making it hard to investigate locally. To address these, we identify a novel "bright ending" (BE) anomaly in diffusion models prone to memorizing training images. BE refers to a distinct cross-attention pattern observed in text-to-image diffusion models, where memorized image patches exhibit significantly greater attention to the final text token during the last inference step than non-memorized patches. This pattern highlights regions where the generated image replicates training data and enables efficient localization of memorized regions. Equipped with this, we propose a simple yet effective method to integrate BE into existing frameworks, significantly improving their performance by narrowing the performance gap caused by local memorization. Our results not only validate the successful execution of the new localization task but also establish new state-of-the-art performance across all existing tasks, underscoring the significance of the BE phenomenon.
+  </details>
+
+
+* [Enhancing Privacy-Utility Trade-offs to Mitigate Memorization in Diffusion Models](https://arxiv.org/abs/2504.18032)
+  <details>
+  <summary> Chen Chen et al. 
+      <em>  CVPR 2025</em>, 2025 </summary>
+  Text-to-image diffusion models have demonstrated remarkable capabilities in creating images highly aligned with user prompts, yet their proclivity for memorizing training set images has sparked concerns about the originality of the generated images and privacy issues, potentially leading to legal complications for both model owners and users, particularly when the memorized images contain proprietary content. Although methods to mitigate these issues have been suggested, enhancing privacy often results in a significant decrease in the utility of the outputs, as indicated by text-alignment scores. To bridge the research gap, we introduce a novel method, PRSS, which refines the classifier-free guidance approach in diffusion models by integrating prompt re-anchoring (PR) to improve privacy and incorporating semantic prompt search (SS) to enhance utility. Extensive experiments across various privacy levels demonstrate that our approach consistently improves the privacy-utility trade-off, establishing a new state-of-the-art.
+  </details>
+
 
 
 ## Explainability
