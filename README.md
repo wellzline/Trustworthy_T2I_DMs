@@ -502,12 +502,18 @@ We welcome relevant work and invite you to recommend your papers to us!
 
 * [From Text to Pixels: Enhancing User Understanding through Text-to-Image Model Explanations](https://dl.acm.org/doi/abs/10.1145/3640543.3645173)
   <details>
-  <summary> Nicholas Carlini et al. 
+  <summary> Noyan Evirgen et al. 
       <em> IUI '24: Proceedings of the 29th International Conference on Intelligent User Interfaces</em>, 2024 </summary>
   Recent progress in Text-to-Image (T2I) models promises transformative applications in art, design, education, medicine, and entertainment. These models, exemplified by Dall-e, Imagen, and Stable Diffusion, have the potential to revolutionize various industries. However, a primary concern is their operation as a ‘black-box’ for many users. Without understanding the underlying mechanics, users are unable to harness the full potential of these models. This study focuses on bridging this gap by developing and evaluating explanation techniques for T2I models, targeting inexperienced end users. While prior works have delved into Explainable AI (XAI) methods for classification or regression tasks, T2I generation poses distinct challenges. Through formative studies with experts, we identified unique explanation goals and subsequently designed tailored explanation strategies. We then empirically evaluated these methods with a cohort of 473 participants from Amazon Mechanical Turk (AMT) across three tasks. Our results highlight users’ ability to learn new keywords through explanations, a preference for example-based explanations, and challenges in comprehending explanations that significantly shift the image's theme. Moreover, findings suggest users benefit from a limited set of concurrent explanations. Our main contributions include a curated dataset for evaluating T2I explainability techniques, insights from a comprehensive AMT user study, and observations critical for future T2I model explainability research.
   </details>
 
 
+* [The Hidden Language of Diffusion Models](https://arxiv.org/abs/2306.00966)
+  <details>
+  <summary> Hila Chefer et al. 
+      <em> ICLR 2024 </em>, 2024 </summary>
+  Text-to-image diffusion models have demonstrated an unparalleled ability to generate high-quality, diverse images from a textual prompt. However, the internal representations learned by these models remain an enigma. In this work, we present Conceptor, a novel method to interpret the internal representation of a textual concept by a diffusion model. This interpretation is obtained by decomposing the concept into a small set of human-interpretable textual elements. Applied over the state-of-the-art Stable Diffusion model, Conceptor reveals non-trivial structures in the representations of concepts. For example, we find surprising visual connections between concepts, that transcend their textual semantics. We additionally discover concepts that rely on mixtures of exemplars, biases, renowned artistic styles, or a simultaneous fusion of multiple meanings of the concept. Through a large battery of experiments, we demonstrate Conceptor's ability to provide meaningful, robust, and faithful decompositions for a wide variety of abstract, concrete, and complex textual concepts, while allowing to naturally connect each decomposition element to its corresponding visual impact on the generated images.
+  </details>
 
 
 
@@ -645,14 +651,28 @@ We welcome relevant work and invite you to recommend your papers to us!
 
 
 
+* [T2I-FactualBench: Benchmarking the Factuality of Text-to-Image Models with Knowledge-Intensive Concepts](https://arxiv.org/abs/2412.04300)
+  <details>
+  <summary> Ziwei Huang et al. 
+      <em> Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing</em>, 2024 </summary>
+  Evaluating the quality of synthesized images remains a significant challenge in the development of text-to-image (T2I) generation. Most existing studies in this area primarily focus on evaluating text-image alignment, image quality, and object composition capabilities, with comparatively fewer studies addressing the evaluation of the factuality of T2I models, particularly when the concepts involved are knowledge-intensive. To mitigate this gap, we present T2I-FactualBench in this work - the largest benchmark to date in terms of the number of concepts and prompts specifically designed to evaluate the factuality of knowledge-intensive concept generation. T2I-FactualBench consists of a three-tiered knowledge-intensive text-to-image generation framework, ranging from the basic memorization of individual knowledge concepts to the more complex composition of multiple knowledge concepts. We further introduce a multi-round visual question answering (VQA) based evaluation framework to assess the factuality of three-tiered knowledge-intensive text-to-image generation tasks. Experiments on T2I-FactualBench indicate that current state-of-the-art (SOTA) T2I models still leave significant room for improvement.
+  </details>
 
 
+* [The Factuality Tax of Diversity-Intervened Text-to-Image Generation: Benchmark and Fact-Augmented Intervention](https://arxiv.org/abs/2407.00377)
+  <details>
+  <summary> Yixin Wan et al. 
+      <em> Association for Computational Linguistics (ACL)</em>, 2024 </summary>
+  Prompt-based "diversity interventions" are commonly adopted to improve the diversity of Text-to-Image (T2I) models depicting individuals with various racial or gender traits. However, will this strategy result in nonfactual demographic distribution, especially when generating real historical figures. In this work, we propose DemOgraphic FActualIty Representation (DoFaiR), a benchmark to systematically quantify the trade-off between using diversity interventions and preserving demographic factuality in T2I models. DoFaiR consists of 756 meticulously fact-checked test instances to reveal the factuality tax of various diversity prompts through an automated evidence-supported evaluation pipeline. Experiments on DoFaiR unveil that diversity-oriented instructions increase the number of different gender and racial groups in DALLE-3's generations at the cost of historically inaccurate demographic distributions. To resolve this issue, we propose Fact-Augmented Intervention (FAI), which instructs a Large Language Model (LLM) to reflect on verbalized or retrieved factual information about gender and racial compositions of generation subjects in history, and incorporate it into the generation context of T2I models. By orienting model generations using the reflected historical truths, FAI significantly improves the demographic factuality under diversity interventions while preserving diversity.
+  </details>
 
 
-
-
-
-
+* [T2I-CompBench++: An Enhanced and Comprehensive Benchmark for Compositional Text-to-image Generation](https://arxiv.org/abs/2307.06350)
+  <details>
+  <summary> Kaiyi Huang et al. 
+      <em> IEEE Transactions on Pattern Analysis and Machine Intelligence </em>, 2025 </summary>
+  Despite the impressive advances in text-to-image models, they often struggle to effectively compose complex scenes with multiple objects, displaying various attributes and relationships. To address this challenge, we present T2I-CompBench++, an enhanced benchmark for compositional text-to-image generation. T2I-CompBench++ comprises 8,000 compositional text prompts categorized into four primary groups: attribute binding, object relationships, generative numeracy, and complex compositions. These are further divided into eight sub-categories, including newly introduced ones like 3D-spatial relationships and numeracy. In addition to the benchmark, we propose enhanced evaluation metrics designed to assess these diverse compositional challenges. These include a detection-based metric tailored for evaluating 3D-spatial relationships and numeracy, and an analysis leveraging Multimodal Large Language Models (MLLMs), i.e. GPT-4V, ShareGPT4v as evaluation metrics. Our experiments benchmark 11 text-to-image models, including state-of-the-art models, such as FLUX.1, SD3, DALLE-3, Pixart-, and SD-XL on T2I-CompBench++. We also conduct comprehensive evaluations to validate the effectiveness of our metrics and explore the potential and limitations of MLLMs.
+  </details>
 
 
 
