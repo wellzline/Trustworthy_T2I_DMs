@@ -281,6 +281,15 @@ We welcome relevant work and invite you to recommend your papers to us!
   </details>
 
 
+* [FairGen: Controlling Sensitive Attributes for Fair Generations in Diffusion Models via Adaptive Latent Guidance](https://arxiv.org/abs/2503.01872)
+  <details>
+  <summary> Mintong Kang et al. 
+      <em>EMNLP 2025 </em>, 2025 </summary>
+    Text-to-image diffusion models often exhibit biases toward specific demographic groups, such as generating more males than females when prompted to generate images of engineers, raising ethical concerns and limiting their adoption. In this paper, we tackle the challenge of mitigating generation bias towards any target attribute value (e.g., "male" for "gender") in diffusion models while preserving generation quality. We propose FairGen, an adaptive latent guidance mechanism which controls the generation distribution during inference. In FairGen, a latent guidance module dynamically adjusts the diffusion process to enforce specific attributes, while a memory module tracks the generation statistics and steers latent guidance to align with the targeted fair distribution of the attribute values. Furthermore, we address the limitations of existing datasets by introducing the Holistic Bias Evaluation (HBE) benchmark, which covers diverse domains and incorporates complex prompts to assess bias more comprehensively. Extensive evaluations on HBE and Stable Bias datasets demonstrate that FairGen outperforms existing bias mitigation approaches, achieving substantial bias reduction (e.g., 68.5% gender bias reduction on Stable Diffusion 2). Ablation studies highlight FairGen's ability to flexibly control the output distribution at any user-specified granularity, ensuring adaptive and targeted bias mitigation. 
+  </details>
+
+
+
 ## Security
 
 * [Rickrolling the Artist: Injecting Backdoors into Text Encoders for Text-to-Image Synthesis](https://openaccess.thecvf.com/content/ICCV2023/html/Struppek_Rickrolling_the_Artist_Injecting_Backdoors_into_Text_Encoders_for_Text-to-Image_ICCV_2023_paper.html)
