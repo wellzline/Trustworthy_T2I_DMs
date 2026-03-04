@@ -1,5 +1,5 @@
 # Trustworthy Text-to-Image Diffusion Models: A Timely and Focused Survey
-[![Paper]](https://www.sciencedirect.com/science/article/pii/S1566253526001430)
+[[Paper]](https://www.sciencedirect.com/science/article/pii/S1566253526001430)
 
 A curated list of papers concerning Trustworthy Text-to-Image Diffusion Models. 
 We welcome relevant work and invite you to recommend your papers to us!
@@ -30,7 +30,7 @@ We welcome relevant work and invite you to recommend your papers to us!
   title={Trustworthy Text-to-Image Diffusion Models: A Timely and Focused Survey},
   author={Zhang, Yi and Chen, Zhen and Cheng, Chih-Hong and Ruan, Wenjie and Huang, Xiaowei and Zhao, Dezong and Flynn, David and Khastgir, Siddartha and Zhao, Xingyu},
   journal={Information Fusion},
-  year={2025},
+  year={2026},
   publisher={Elsevier}
 }
 ```
