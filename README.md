@@ -1,5 +1,5 @@
 # Trustworthy Text-to-Image Diffusion Models: A Timely and Focused Survey
-[![Paper](https://img.shields.io/badge/arxiv-2409.18214-red)](https://arxiv.org/abs/2409.18214)
+[![Paper]](https://www.sciencedirect.com/science/article/pii/S1566253526001430)
 
 A curated list of papers concerning Trustworthy Text-to-Image Diffusion Models. 
 We welcome relevant work and invite you to recommend your papers to us!
