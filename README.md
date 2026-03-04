@@ -29,8 +29,9 @@ We welcome relevant work and invite you to recommend your papers to us!
 @article{zhang2024trustworthy,
   title={Trustworthy Text-to-Image Diffusion Models: A Timely and Focused Survey},
   author={Zhang, Yi and Chen, Zhen and Cheng, Chih-Hong and Ruan, Wenjie and Huang, Xiaowei and Zhao, Dezong and Flynn, David and Khastgir, Siddartha and Zhao, Xingyu},
-  journal={arXiv preprint arXiv:2409.18214},
-  year={2024}
+  journal={Information Fusion},
+  year={2025},
+  publisher={Elsevier}
 }
 ```
 
