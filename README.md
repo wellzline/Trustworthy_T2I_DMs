@@ -4,9 +4,9 @@
 A curated list of papers concerning Trustworthy Text-to-Image Diffusion Models. 
 We welcome relevant work and invite you to recommend your papers to us!
 
-> [Yi Zhang](https://scholar.google.com/citations?user=9E8XJ54AAAAJ&hl=en), [Xingyu Zhao*](https://scholar.google.com/citations?user=SzEBdA8AAAAJ&hl=en), [Zhen Chen](https://scholar.google.com/citations?hl=en&user=Ezm8UAQAAAAJ), [Chih-Hong Cheng](https://scholar.google.com/citations?hl=en&user=e3RTgfMAAAAJ), [Wenjie Ruan](https://scholar.google.com/citations?user=VTASFGEAAAAJ&hl=en),
+> [Yi Zhang](https://scholar.google.com/citations?user=9E8XJ54AAAAJ&hl=en), [Zhen Chen](https://scholar.google.com/citations?hl=en&user=Ezm8UAQAAAAJ), [Chih-Hong Cheng](https://scholar.google.com/citations?hl=en&user=e3RTgfMAAAAJ), [Wenjie Ruan](https://scholar.google.com/citations?user=VTASFGEAAAAJ&hl=en),
 [Xiaowei Huang](https://scholar.google.com/citations?user=X4fLCCIAAAAJ&hl=en), [Dezong Zhao](https://scholar.google.com/citations?hl=en&user=ydq4ZjYAAAAJ), [David Flynn](https://scholar.google.com/citations?hl=en&user=EeSDHVkAAAAJ),
-[Siddartha Khastgir](https://scholar.google.com/citations?hl=en&user=r3ldU6sAAAAJ)
+[Siddartha Khastgir](https://scholar.google.com/citations?hl=en&user=r3ldU6sAAAAJ), [Xingyu Zhao*](https://scholar.google.com/citations?user=SzEBdA8AAAAJ&hl=en),
 >
 > *Corresponding Author
 
