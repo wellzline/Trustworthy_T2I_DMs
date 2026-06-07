@@ -161,6 +161,14 @@ We welcome relevant work and invite you to recommend your papers to us!
 
 ## Fairness
 
+
+* [RespoDiff: Dual-Module Bottleneck Transformation for Responsible & Faithful T2I Generation](https://proceedings.neurips.cc/paper_files/paper/2025/hash/3cb4afdb1f00d8c15cfdcd134eb8bfd6-Abstract-Conference.html)
+  <details>
+  <summary> Hritik Bansal et al. 
+      <em> Advances in Neural Information Processing Systems 38 (NeurIPS 2025)</em>, 2025 </summary>
+        The rapid advancement of diffusion models has enabled high-fidelity and semantically rich text-to-image generation; however, ensuring fairness and safety remains an open challenge. Existing methods typically improve fairness and safety at the expense of semantic fidelity and image quality. In this work, we propose RespoDiff, a novel framework for responsible text-to-image generation that incorporates a dual-module transformation on the intermediate bottleneck representations of diffusion models. Our approach introduces two distinct learnable modules: one focused on capturing and enforcing responsible concepts, such as fairness and safety, and the other dedicated to maintaining semantic alignment with neutral prompts. To facilitate the dual learning process, we introduce a novel score-matching objective that enables effective coordination between the modules. Our method outperforms state-of-the-art methods in responsible generation by ensuring semantic alignment while optimizing both objectives without compromising image fidelity. Our approach improves responsible and semantically coherent generation by \textasciitilde20\% across diverse, unseen prompts. Moreover, it integrates seamlessly into large-scale models like SDXL, enhancing fairness and safety. The project page is available at https://vssilpa.github.io/respodiffprojectpage.
+  </details>
+
 * [How well can Text-to-Image Generative Models understand Ethical Natural Language Interventions?](https://arxiv.org/abs/2210.15230)
   <details>
   <summary> Hritik Bansal et al. 
